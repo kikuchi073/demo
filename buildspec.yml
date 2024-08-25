@@ -15,7 +15,4 @@ phases:
     commands:
       - hexo generate
 # 以下のフォルダをS3にアップロードする
-artifacts:
-  files:
-    - '**/*'
-  base-directory: 'public'
+
